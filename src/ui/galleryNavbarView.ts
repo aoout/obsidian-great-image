@@ -1,8 +1,8 @@
 import {Md5} from "md5-typescript";
 import {MarkdownView, TFile} from "obsidian";
-import ImageToolkitPlugin from "src/main";
-import {ImgSettingIto} from "src/to/imgTo";
-import {md5Img, parseActiveViewData} from "src/util/markdowParse";
+import ImageToolkitPlugin from "../main";
+import {ImgSettingIto} from "../to/imgTo";
+import {md5Img, parseActiveViewData} from "../util/markdowParse";
 import {MainContainerView} from "./mainContainerView";
 import {GalleryImgCacheCto, GalleryImgCto} from "../to/galleryNavbarTo";
 

@@ -1,7 +1,7 @@
 import {Notice} from 'obsidian';
-import {t} from 'src/lang/helpers';
-import {OffsetSizeIto} from 'src/to/commonTo';
-import {ImgCto, ImgInfoIto} from 'src/to/imgTo';
+import {t} from '../lang/helpers';
+import {OffsetSizeIto} from '../to/commonTo';
+import {ImgCto, ImgInfoIto} from '../to/imgTo';
 import {IMG_VIEW_MIN, ZOOM_FACTOR} from '../conf/constants'
 
 /**

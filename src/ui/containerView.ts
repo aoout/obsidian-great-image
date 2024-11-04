@@ -1,7 +1,7 @@
-import {CONTAINER_TYPE, IMG_DEFAULT_BACKGROUND_COLOR, IMG_FULL_SCREEN_MODE} from "src/conf/constants";
-import ImageToolkitPlugin from "src/main";
-import {ImgCto, ImgInfoCto, ImgStatusCto} from "src/to/imgTo";
-import {ImgUtil} from "src/util/imgUtil";
+import {CONTAINER_TYPE, IMG_DEFAULT_BACKGROUND_COLOR, IMG_FULL_SCREEN_MODE} from "../conf/constants";
+import ImageToolkitPlugin from "../main";
+import {ImgCto, ImgInfoCto, ImgStatusCto} from "../to/imgTo";
+import {ImgUtil} from "../util/imgUtil";
 import {OffsetSizeIto} from "../to/commonTo";
 import {MenuView} from "./menuView";
 
