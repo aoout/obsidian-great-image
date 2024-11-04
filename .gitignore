@@ -1,17 +1,14 @@
-/build/
-# Intellij
-*.iml
-.idea
-
-# npm
 node_modules
+.env
+*-error.log
 package-lock.json
-
-# build
+yarn.lock
+.npmrc
+.env.json
+dist/**
 main.js
-*.js.map
-
-# obsidian
+.idea
+.vscode
 data.json
-
-dist
+styles.css
+!src/styles.css

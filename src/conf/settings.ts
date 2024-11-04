@@ -1,6 +1,6 @@
 import {App, normalizePath, Notice, PluginSettingTab, Setting} from 'obsidian';
-import {t} from 'src/lang/helpers';
-import type ImageToolkitPlugin from "src/main";
+import {t} from '../lang/helpers';
+import type ImageToolkitPlugin from "../main";
 import {
     GALLERY_IMG_BORDER_ACTIVE_COLOR,
     GALLERY_NAVBAR_DEFAULT_COLOR,

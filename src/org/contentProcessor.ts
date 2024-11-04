@@ -75,7 +75,6 @@ export async function getNewFileName(
     const fileExt = await fileExtByContent(contentData);
     const baseName = cleanFileName(genSha256(contentData));
 
-    dir = pathJoin(dir, baseName.slice(0, 1) + '/' + baseName.slice(1, 2) + '/' + baseName.slice(2, 3))
     const suggestedName = pathJoin(dir, `${baseName}.${fileExt}`)
 
     if (await app.vault.adapter.exists(suggestedName, false)) {

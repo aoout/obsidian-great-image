@@ -1,7 +1,7 @@
-import {CONTAINER_TYPE, TOOLBAR_CONF} from 'src/conf/constants';
-import {t} from 'src/lang/helpers';
-import ImageToolkitPlugin from 'src/main';
-import {ImgCto} from 'src/to/imgTo';
+import {CONTAINER_TYPE, TOOLBAR_CONF} from '../conf/constants';
+import {t} from '../lang/helpers';
+import ImageToolkitPlugin from '../main';
+import {ImgCto} from '../to/imgTo';
 import {ContainerView} from './containerView';
 import {GalleryNavbarView} from './galleryNavbarView';
 

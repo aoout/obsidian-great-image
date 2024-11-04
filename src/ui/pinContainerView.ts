@@ -1,5 +1,5 @@
-import {CONTAINER_TYPE} from "src/conf/constants";
-import ImageToolkitPlugin from "src/main";
+import {CONTAINER_TYPE} from "../conf/constants";
+import ImageToolkitPlugin from "../main";
 import {ContainerView} from "./containerView";
 import {ImgCto} from "../to/imgTo";
 import {MenuView} from "./menuView";
