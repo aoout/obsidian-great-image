@@ -24,37 +24,37 @@ import zhCN from "./locale/zh-cn";
 import zhTW from "./locale/zh-tw";
 
 const localeMap: { [k: string]: Partial<typeof en> } = {
-  ar,
-  cs: cz,
-  da,
-  de,
-  en,
-  "en-gb": enGB,
-  es,
-  fr,
-  hi,
-  id,
-  it,
-  ja,
-  ko,
-  nl,
-  nn: no,
-  pl,
-  pt,
-  "pt-br": ptBR,
-  ro,
-  ru,
-  tr,
-  "zh-cn": zhCN,
-  "zh-tw": zhTW,
+	ar,
+	cs: cz,
+	da,
+	de,
+	en,
+	"en-gb": enGB,
+	es,
+	fr,
+	hi,
+	id,
+	it,
+	ja,
+	ko,
+	nl,
+	nn: no,
+	pl,
+	pt,
+	"pt-br": ptBR,
+	ro,
+	ru,
+	tr,
+	"zh-cn": zhCN,
+	"zh-tw": zhTW,
 };
 
 const locale = localeMap[moment.locale()];
 
 export function t(str: keyof typeof en): string {
-  if (!locale) {
-    console.error("Error: Image toolkit locale not found", moment.locale());
-  }
+	if (!locale) {
+		console.error("Error: Image toolkit locale not found", moment.locale());
+	}
 
-  return (locale && locale[str]) || en[str];
+	return (locale && locale[str]) || en[str];
 }
