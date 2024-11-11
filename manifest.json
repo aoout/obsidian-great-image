@@ -1,11 +1,10 @@
 {
 	"id": "great-image",
-	"name": "Great Image",
+	"name": "GreatImage",
 	"description": "One-stop solution for image management.",
 	"author": "aoout",
 	"authorUrl": "https://github.com/aoout",
-
-	"isDesktopOnly": true,
+	"isDesktopOnly": false,
 	"minAppVersion": "0.16.0",
 	"version": "0.0.1"
 }

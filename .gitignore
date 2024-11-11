@@ -2,7 +2,6 @@ node_modules
 .env
 *-error.log
 yarn.lock
-.npmrc
 .env.json
 dist/**
 main.js
